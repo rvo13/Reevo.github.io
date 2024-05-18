@@ -1,0 +1,315 @@
+
+  
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #282828;
+      font-family: "Manrope", sans-serif;
+}
+
+
+
+  h3 {
+    color: #ffcf01;
+  }
+  
+  h2 {
+    color: #f2f2f2;
+  }
+  
+  .manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+  
+  #name1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    
+  }
+  
+  #btnats {
+    font-size: 24px;
+    color: #ffcf01;
+    margin-top: 14px;
+    margin-right: 8px;
+  }
+  
+  #pala {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  @keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+.animate-right1 {
+  animation: slideRight 1s ease forwards;
+  
+}
+
+.animate-right2 {
+  animation: slideRight 2s ease forwards;
+  margin-top: -25px;
+  font-family: "Manrope", sans-serif;
+}
+
+ .text-container{
+   color: #ffcf01;
+   font-size: 18px;
+   margin-top: 150px;
+   margin-left: 20px;
+ }
+ 
+ #image {
+   text-align: right;
+     overflow: hidden; /* Mengatasi overflow */
+  margin-top: 80px;
+   
+ }
+ 
+ .pp {
+   width: 280px;
+   
+   text-align: right;
+   animation: slideLeft 1s ease forwards;
+ }
+ 
+ .container-isi {
+   
+   margin-left: 8px;
+   margin-top: 150px;
+   
+ }
+  
+ .about {
+   font-family: "Manrope", sans-serif;
+   font-size: 15px;
+   text-align: left;
+   
+ }
+ 
+ .abt {
+   color: #f2f2f2;
+   font-family: "Manrope", sans-serif;
+ }
+ 
+ .svc {
+   color: #f2f2f2;
+   font-family: "Manrope", sans-serif;
+ }
+ 
+ #container-service {
+   margin-top: 120px;
+   
+   padding-bottom: 100px;
+ }
+ 
+ #card-service {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+ }
+ 
+ #logo-svc {
+   color: #ffcf01;
+   font-size: 26px;
+ }
+ 
+ .svc {
+   margin-left: 8px;
+ }
+ 
+ .text-svc {
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   
+ }
+ 
+ .deskrip-svc {
+   color: #ffcf01;
+   width: 180px;
+   font-size: 8px;
+   margin-top: -12px;
+ }
+ 
+ #container-service-card {
+   background-color: #141414;
+   margin: auto;
+   display: inline-block;
+   padding: 10px;
+   border-radius: 8px;
+   margin-top: 18px;
+  
+ }
+
+  #container-service-card:hover {
+    border: 1.5px solid #ffcf01;
+    transition: all .3s ease-in-out;
+  }
+  
+  .logo-skl {
+    color: #ffcf01;
+    font-size: 80px;
+  }
+  
+  #skils {
+    background-color: #141414;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    border: 1.5px solid #ffcf01;
+    border-radius: 10px;
+    
+  }
+  
+  #skel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .text-skl {
+    color: #f2f2f2;
+  }
+  
+  #container-skill {
+    padding-bottom: 120px;
+  }
+  
+  .text-fot {
+    color: #ffcf01;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  #fot {
+    background-color: #141414;
+    padding: 20px;
+  }
+ 
+  .text-fot:hover {
+   color: red;
+   transition: all .3s ease-in-out;
+ }
+ 
+ .items {
+   font-size: 26px;
+   background-color: #f2f2f2;
+   color: #ffcf01;
+   display: inline-block;
+   padding: 10px;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 30px;
+   left: 20px;
+   border: 1px solid #141414;
+ }
+ 
+
+ 
+ #menu {
+   background: white;
+   width: 95%;
+   right: 0px;
+   position: fixed;
+   top: 0px;
+   display: none;
+
+ }
+ 
+  #name2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #141414;
+  }
+  
+  #btnats2 {
+    font-size: 24px;
+    color: #141414;
+    margin-top: 10px;
+    margin-right: 8px;
+  }
+  
+  #pala2 {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .isi {
+    color: #141414;
+    margin-left: 8px;
+    padding-bottom: 10px;
+    font-size: 40px;
+  
+  }
+  
+  #isi-menu {
+    margin-top: 100px;
+    padding-bottom: 30px;
+  }
+  
+  .abt2 {
+    text-decoration: underline;
+  }
+  
+  .abt2:hover {
+    color: #ffcf01;
+    transition: all .3s ease-in-out;
+  }
+  
+  .service:hover {
+    color: #ffcf01;
+    transition: all .3s ease-in-out;
+  }
+  
+  .project:hover {
+    color: #ffcf01;
+    transition: all .3s ease-in-out;
+  }
+  
+  .Contact:hover {
+    color: #ffcf01;
+    transition: all .3s ease-in-out;
+  }
+  
+  .text-fot2 {
+    color: #141414;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+  
+  }
+  
